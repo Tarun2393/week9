@@ -1,0 +1,21 @@
+<div class="container">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+   
+</head>
+    <body style="text-align:left;">
+    <p>You deposit <input type="text" [(ngModel)]="annuity" > at the beginning of the year <br/> 
+    and at he end of each month in an account that pays <br/>
+    <input type="text" [(ngModel)]="interestRate"> compounded monthly for <br/>
+    <input type="text" [(ngModel)]="period"> year(s). What is the amount in the <br/>
+    account at the end? <button class="btn btn-success" (click)="ammountCalculator()">Calculate</button>
+    <br/>
+    <br/>
+
+    <input type="text" [(ngModel)]="ammount"> is the amount in the account at the end.
+  
+  
+  </p>
+  </body>
+</div>
